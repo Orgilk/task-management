@@ -5,7 +5,7 @@ const NoTask = () => {
     <Flex>
         <Alert status='warning'>
             <AlertIcon />
-            Pas de tâche pour le moment
+            No task found
         </Alert>
     </Flex>
 )

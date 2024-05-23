@@ -45,6 +45,7 @@ export default function Home() {
     try {
       const response = await fetch("/api/task/all")
       const data = await response.json()
+      console.log('data: ', data)
       setAllTasks(data)
       setIsLoading(false)
     }

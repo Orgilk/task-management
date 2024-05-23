@@ -5,7 +5,7 @@ import { ITask } from '@/types';
 const taskSchema = new Schema<ITask>({
     task: {
         type: String,
-        required: [true, 'Task is required.'],
+        required: [true, 'Taskss is required.'],
     },
     completed: {
         type: Boolean,
