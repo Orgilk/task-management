@@ -7,7 +7,7 @@ const AddTask = ({ task, setTask, handleCreateTask }: AddTaskProps) => {
   return (
     <Flex pt="2rem" pl="2rem" pr="2rem" pb="1rem">
         <Input 
-            placeholder='Nouvelle tâche...' 
+            placeholder='enter task name' 
             size='lg' 
             onChange={(e) => setTask(e.target.value)} 
             value={task}
